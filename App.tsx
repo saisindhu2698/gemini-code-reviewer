@@ -208,7 +208,7 @@ const App: React.FC = () => {
       )}
 
       <footer className="mt-12 text-center text-sm text-slate-500">
-        <p>&copy; {new Date().getFullYear()} Gemini Code Reviewer. Powered by Google Gemini.</p>
+        <p>&copy; {new Date().getFullYear()} Gemini Code Reviewer.</p>
         <p className="mt-1">Note: API key must be configured as <code className="bg-slate-700 text-slate-300 px-1 py-0.5 rounded text-xs">process.env.API_KEY</code>.</p>
       </footer>
     </div>
